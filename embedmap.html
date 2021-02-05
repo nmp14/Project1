@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>map embeded</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <h2>Google Map iFrame</h2>
+    <p>The iframe should load Miami childrens:</p>
+    <div class="container" id ="wrap">
+        <form class="card" id="start">
+            <h2 id="i-want-to..." data-text="I want to...">I want to...</h2>
+            <fieldset>
+                <div class="card selected" data-requesttype="place">
+                <h3 id="Highlight-a-place-or-an-address" data-text="Highlight-a-place-or-an-address">Highlight a place or an address</h3>
+                <div class="card-contents">
+                    <div class="autocomplete-location">
+                        <input class="input-text pac-target-input" id="location" placeholder="Enter a location" autocomplete="on">
+                    </div>
+                </div>
+            </div>
+            <button id="start-next">Looks good!</button>
+            </fieldset>
+    <!-- iframe of google map image -->
+        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCwt4jc2BU4QM1PVfbFzQ9l-xRk7o8M27Q&q=miami+childrens+museum, miami+FL" height="450" width="600" title="Iframe Example"></iframe>
+        <!-- jquery 
+        <iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/undefined?origin=...&q=...&destination=...&center=...&zoom=...&key=..." allowfullscreen></iframe>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            // This is our API key. Add your own API key between the ""
+            var APIKey = "AIzaSyCwt4jc2BU4QM1PVfbFzQ9l-xRk7o8M27Q";
+
+            // We then created an AJAX call
+            $.ajax({
+                url: queryURL,
+                method: "GET"
+            }).then(function(response) {
+                // Create CODE HERE to Log the queryURL
+                console.log(queryURL)
+                    // Create CODE HERE to log the resulting object
+                console.log(response)
+
+            }); -->
+        </script>
+        
+</body>
+
+</html>

@@ -2,15 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="Assets/CSS/login.css">
 </head>
 
 <body>
-    <button id="test">Test Button</button>
-    <script src="script.js"></script>
+  <form id="login-form" class="box">
+
+    <h1>Login</h1>
+    <input type="text" name="" placeholder="Enter Username" id="username">
+    <input type="password" name="" placeholder="Enter Password" id="password">
+    <small>Register Here</small>
+    <input type="submit" name="" value="Login" id="login">
+  </form>
+
+  <form id="register-form" class="hidden box">
+    <h1>Register</h1>
+    <input type="text" name="" placeholder="Enter Username" id="name">
+    <input type="password" name="" placeholder="Enter Password" id="createPass">
+    <input type="submit" name="" value="Register" id="register">
+
+  </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="Assets/JS/login.js"></script>
 </body>
 
 </html>

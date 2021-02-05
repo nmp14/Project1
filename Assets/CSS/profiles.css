@@ -1,0 +1,39 @@
+body {
+    background: #555;
+}
+
+header {
+    background: teal;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+ul {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.li-btn {
+    border: none;
+    background: transparent;
+    color: crimson;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}

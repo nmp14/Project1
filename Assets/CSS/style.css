@@ -1,0 +1,299 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./../food.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 2000px;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.ml5 {
+    position: relative;
+    font-weight: 300;
+    font-size: 60px;
+    color: rgb(88, 248, 187);
+}
+  
+.ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+}
+  
+.ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: #402d2d;
+    transform-origin: 0.5 0;
+}
+  
+  
+.ml5 .letters {
+    text-align: center;
+    display: inline-block;
+    opacity: 0;
+}
+  
+#any {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1, #profileDiv {
+    font-weight: bold;
+    color: rgb(88, 248, 187);
+    text-shadow: 3px 3px black;
+}
+
+
+.heading {
+     font-weight: bold;
+     font-size: 1.5rem;
+     text-shadow: 3px 1px black;
+}
+
+.col-lg-12 {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 8px;
+    width: 75%;
+}
+
+.footnote {
+    color: #777;
+}
+
+select {
+    width: 80%;
+}
+
+.hidden {
+    display: none;
+}
+
+.mapouter {
+    margin-top: 3rem;
+    box-shadow: 0 0 15px 8px;
+    
+    text-align: right;
+    height: 250px;
+    width: 150px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 250px;
+    width: 150px;
+  }
+/* 
+ .list-group {
+    list-style-type: square;
+    font-size: 20px;
+ }  */
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 250px;
+    width: 150px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+li {
+    width: 300px;
+}
+/* Classes to color li's based on type of expense */
+.rent {
+    background: red;
+}
+
+.utilities {
+    background: orange;
+}
+
+.groceries {
+    background: purple;
+}
+
+.dining {
+    background: pink;
+}
+
+.car-loan {
+    background: teal;
+}
+
+.car-insurance {
+    background: green;
+}
+
+.insurance {
+    background: lightsalmon
+}
+
+.other {
+    background: #444;
+}
+
+.second {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 0 0 15px 8px; */
+}
+
+.b {
+    font-family: monospace;
+    font-weight: bold;
+    border: 1px solid blue;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.carouselHeader {
+    background: teal;
+    width: 100%;
+    max-width: 450px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.carousel-inner img {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 450px;
+    height: 450px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-container a {
+    margin-left: 6px;
+}
+
+footer {
+    background: teal;
+    margin-bottom: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+footer h3 {
+    margin-bottom: 0;
+    color: rgb(88, 248, 187);;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+@media only screen and (max-width: 850px) {
+    body {
+        background-repeat: initial;
+        background-size: 100% 700px;
+    }
+    .form-group {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .ml5 {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .ml5 {
+        font-size: 30px;
+    }
+
+    form {
+        font-size: 0.8em;
+    }
+}
+#map{
+    height: 400px;
+    width: 100%;
+  }
